@@ -1,0 +1,26 @@
+HW05  - Jasmine Schaber
+CS 131
+
+This assignemnt implemented a naive bayesian classifier. After implementing basic
+functions with the likelihood file, I calculated acceleration from the dataset
+file to improve my findings significantly. I did this by calculating acceleration 
+between each second, then creating bins and counting frequencies to get the 
+likelihood for each group. This was all done in the accelBins file. 
+Although it was difficult to test if the program was 100% working, 
+it did give the correct solutions after much tweaking. 
+
+I wish I could have improved on the handling of NaN values, as well as the
+computation for the probability within the recursive function, which was pretty
+shaky a lot of the time. I am glad that the classifier ended up working as 
+intended though - I had an error with an incorrect upper limit on the range 
+that caused hours of debugging....
+
+Dependencies: numpy
+
+I would like to apologize for submitting this assignment a little bit after the 
+deadline. I went home for break and got very confused by the 3-hour time 
+difference. This was a very difficult assignment for me, and I found it 
+hard to start early - I had two other projects and a midterm due on Monday. 
+I also had issues with WiFi while trying to work on this project, since I was 
+in the airport and on a plane. If any leniency at all could be given, that 
+would be really appreciated. Thank you! 
